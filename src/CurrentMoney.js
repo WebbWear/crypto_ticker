@@ -16,7 +16,7 @@ componentDidMount () {
     .then(newMoneyData => {
         console.log(newMoneyData)
         this.setState({
-            coinIcon: newMoneyData.coin[0].icon
+            // coinIcon: newMoneyData.coin[0].icon
         })
     })
 }
